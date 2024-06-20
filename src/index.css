@@ -19,3 +19,7 @@
 .font-nunito {
     font-family: nunito, sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}

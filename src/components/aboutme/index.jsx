@@ -1,8 +1,8 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import cvImage from "../../images/anhcv.jpg";
 import { iconContact, skills } from "../../data/index.js";
 
-function AboutMe() {
+const AboutMe = forwardRef((_, ref) => {
   // open another page with link
   const handleViewProfile = (link) => {
     window.open(link, "_blank", "noreferrer");
@@ -10,6 +10,7 @@ function AboutMe() {
 
   return (
     <div
+      ref={ref}
       className="w-full h-screen bg-main_color flex flex-col items-center p-[0.5rem] gap-1 md:p-[1rem] lg:p-[2rem] xl:p-[5rem] lg:gap-5"
       style={{
         clipPath: "polygon(0 0, 100% 0, 100% 84%, 0% 100%)",
@@ -75,6 +76,6 @@ function AboutMe() {
       </div>
     </div>
   );
-}
+});
 
 export default AboutMe;
