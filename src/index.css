@@ -20,6 +20,17 @@
     font-family: nunito, sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+.dash_draw {
+    animation: dash 8s ease;
 }
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 4500;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+

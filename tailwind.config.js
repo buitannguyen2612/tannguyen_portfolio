@@ -31,6 +31,12 @@ module.exports = {
       "5xl": "3.052rem",
     },
     extend: {
+      keyframes: {
+        draw: {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" },
+        },
+      },
       colors: {
         title: "#3f3f3f",
         normal_text: "#150303",
