@@ -27,7 +27,7 @@ const AboutMe = forwardRef((_, ref) => {
             className="w-full h-full object-cover rounded-xl shadow-xl"
           />
         </div>
-        <div className="w-full h-auto flex flex-col items-start justify-center gap-[0.5rem] lg:w-[55%] lg:h-full lg:gap-1">
+        <div className="w-full h-auto flex flex-col items-start justify-center gap-[0.2rem] sm:gap-[0.3rem] lg:w-[55%] lg:h-full lg:gap-1">
           <p className="text-white text-sm md:text-base lg:text-base">
             I am self thought front-end developer who is passionate about
             building awesome website's and application's i have learned and used
