@@ -70,7 +70,7 @@ const AboutMe = forwardRef((_, ref) => {
             </div>
           </div>
           <p className="text-sm text-white md:text-base lg:text-base">
-            Email: tombtn2612@gmail.com
+            Email: nguyenbt2612@gmail.com
           </p>
         </div>
       </div>
